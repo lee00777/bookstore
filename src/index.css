@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: Raleway, sans-serif;
+  margin: 0;
+  font-size: 1.4em;
+  /* Background image from Ashley Byrd on Unsplash  */
+  background-image:url('./resources/bookstore-bg.jpg');
+  background-size:cover;
+  background-attachment: fixed;
+  background-position:center center;
+  background-color: #2c626f;
+  color: #060505;
+}
+
+h1,h2,h3,p {
+  margin: 0;
+}
+
+input {
+  color: #060505;
+  padding: 8px;
+  font-size: 0.7em;
+  border-radius: 4px;
+  border: 1px solid #d4d4d4;
+  background-color: #fff;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  white-space: nowrap;  
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+}
+
+button {
+  background: #2b7689;
+  color: #fff;
+  padding: 13px;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
